@@ -48,6 +48,7 @@ namespace SnackApp
                         break;
 
                     case 2:
+                        // Muestra todos los snacks disponibles en la máquina
                         Console.WriteLine("--- Lista de Snacks ---");
                         servicio.ListarSnacks();
                         break;
