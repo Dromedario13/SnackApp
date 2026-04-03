@@ -81,6 +81,7 @@ namespace SnackApp
                         break;
 
                     case 5:
+                        // Permite eliminar un snack del sistema mediante su ID  
                         Console.WriteLine("--- Eliminar Snack ---");
                         Console.Write("ID del snack: ");
                         int idEliminar = int.Parse(Console.ReadLine());
