@@ -52,6 +52,7 @@ namespace SnackApp
                         break;
 
                     case 3:
+                        // Permite comprar un snack reduciendo su cantidad disponible
                         Console.WriteLine("--- Comprar Snacks ---");
                         Console.Write("ID del snack: ");
                         int idCompra = int.Parse(Console.ReadLine());
