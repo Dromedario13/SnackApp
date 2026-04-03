@@ -60,6 +60,7 @@ namespace SnackApp
                         break;
 
                     case 4:
+                        // Permite actualizar la información de un snack existente
                         Console.WriteLine("--- Actualizar Snacks ---");
                         Console.Write("ID del snack: ");
                         int idActualizar = int.Parse(Console.ReadLine());
