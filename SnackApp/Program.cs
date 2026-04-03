@@ -33,6 +33,7 @@ namespace SnackApp
                 switch (opcion)
                 {
                     case 1:
+                        // Permite agregar un nuevo snack a la máquina con nombre, precio y cantidad
                         Console.WriteLine("--- Agregar snack ---");
                         Console.Write("Nombre: ");
                         string nombre = Console.ReadLine();
@@ -47,11 +48,13 @@ namespace SnackApp
                         break;
 
                     case 2:
+                        // Muestra todos los snacks disponibles en la máquina
                         Console.WriteLine("--- Lista de Snacks ---");
                         servicio.ListarSnacks();
                         break;
 
                     case 3:
+                        // Permite comprar un snack reduciendo su cantidad disponible
                         Console.WriteLine("--- Comprar Snacks ---");
                         Console.Write("ID del snack: ");
                         int idCompra = int.Parse(Console.ReadLine());
@@ -60,6 +63,7 @@ namespace SnackApp
                         break;
 
                     case 4:
+                        // Permite actualizar la información de un snack existente
                         Console.WriteLine("--- Actualizar Snacks ---");
                         Console.Write("ID del snack: ");
                         int idActualizar = int.Parse(Console.ReadLine());
@@ -77,6 +81,7 @@ namespace SnackApp
                         break;
 
                     case 5:
+                        // Permite eliminar un snack del sistema mediante su ID  
                         Console.WriteLine("--- Eliminar Snack ---");
                         Console.Write("ID del snack: ");
                         int idEliminar = int.Parse(Console.ReadLine());
