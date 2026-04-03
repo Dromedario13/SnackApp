@@ -33,6 +33,7 @@ namespace SnackApp
                 switch (opcion)
                 {
                     case 1:
+                        // Permite agregar un nuevo snack a la máquina con nombre, precio y cantidad
                         Console.WriteLine("--- Agregar snack ---");
                         Console.Write("Nombre: ");
                         string nombre = Console.ReadLine();
